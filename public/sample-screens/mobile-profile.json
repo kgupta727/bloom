@@ -1,0 +1,439 @@
+{
+  "id": "screen-mobile-profile",
+  "name": "Mobile Profile Screen",
+  "components": [
+    {
+      "id": "profile-header",
+      "type": "container",
+      "label": "Profile Header",
+      "styles": {
+        "padding": "32px 20px",
+        "backgroundColor": "#8b5cf6",
+        "textAlign": "center"
+      },
+      "children": [
+        {
+          "id": "avatar",
+          "type": "container",
+          "label": "Avatar",
+          "styles": {
+            "width": "80px",
+            "height": "80px",
+            "backgroundColor": "#a78bfa",
+            "borderRadius": "40px",
+            "margin": "0 auto 16px auto",
+            "display": "flex",
+            "alignItems": "center",
+            "justifyContent": "center"
+          },
+          "children": [
+            {
+              "id": "avatar-text",
+              "type": "text",
+              "label": "Avatar Initials",
+              "content": "AK",
+              "styles": {
+                "fontSize": "32px",
+                "fontWeight": "700",
+                "color": "#ffffff",
+                "margin": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "id": "profile-name",
+          "type": "heading",
+          "label": "User Name",
+          "content": "Alex Kim",
+          "styles": {
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "color": "#ffffff",
+            "margin": "0 0 8px 0"
+          }
+        },
+        {
+          "id": "profile-email",
+          "type": "text",
+          "label": "Email",
+          "content": "alex.kim@example.com",
+          "styles": {
+            "fontSize": "14px",
+            "color": "#e9d5ff",
+            "margin": "0px"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stats-row",
+      "type": "container",
+      "label": "Stats Row",
+      "styles": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "padding": "20px",
+        "backgroundColor": "#ffffff",
+        "borderWidth": "0 0 1px 0",
+        "borderStyle": "solid",
+        "borderColor": "#e5e7eb"
+      },
+      "children": [
+        {
+          "id": "stat-followers",
+          "type": "container",
+          "label": "Followers",
+          "styles": {
+            "textAlign": "center"
+          },
+          "children": [
+            {
+              "id": "followers-count",
+              "type": "heading",
+              "label": "Count",
+              "content": "2,847",
+              "styles": {
+                "fontSize": "20px",
+                "fontWeight": "800",
+                "color": "#111827",
+                "margin": "0 0 4px 0"
+              }
+            },
+            {
+              "id": "followers-label",
+              "type": "text",
+              "label": "Label",
+              "content": "Followers",
+              "styles": {
+                "fontSize": "12px",
+                "color": "#6b7280",
+                "margin": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "id": "stat-following",
+          "type": "container",
+          "label": "Following",
+          "styles": {
+            "textAlign": "center"
+          },
+          "children": [
+            {
+              "id": "following-count",
+              "type": "heading",
+              "label": "Count",
+              "content": "342",
+              "styles": {
+                "fontSize": "20px",
+                "fontWeight": "800",
+                "color": "#111827",
+                "margin": "0 0 4px 0"
+              }
+            },
+            {
+              "id": "following-label",
+              "type": "text",
+              "label": "Label",
+              "content": "Following",
+              "styles": {
+                "fontSize": "12px",
+                "color": "#6b7280",
+                "margin": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "id": "stat-posts",
+          "type": "container",
+          "label": "Posts",
+          "styles": {
+            "textAlign": "center"
+          },
+          "children": [
+            {
+              "id": "posts-count",
+              "type": "heading",
+              "label": "Count",
+              "content": "128",
+              "styles": {
+                "fontSize": "20px",
+                "fontWeight": "800",
+                "color": "#111827",
+                "margin": "0 0 4px 0"
+              }
+            },
+            {
+              "id": "posts-label",
+              "type": "text",
+              "label": "Label",
+              "content": "Posts",
+              "styles": {
+                "fontSize": "12px",
+                "color": "#6b7280",
+                "margin": "0px"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "action-buttons",
+      "type": "container",
+      "label": "Action Buttons",
+      "styles": {
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": "12px",
+        "padding": "20px"
+      },
+      "children": [
+        {
+          "id": "edit-btn",
+          "type": "button",
+          "label": "Edit Profile",
+          "content": "Edit Profile",
+          "styles": {
+            "flex": "1",
+            "padding": "14px 0",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "backgroundColor": "#8b5cf6",
+            "color": "#ffffff",
+            "borderRadius": "12px",
+            "borderStyle": "none"
+          }
+        },
+        {
+          "id": "share-btn",
+          "type": "button",
+          "label": "Share",
+          "content": "Share",
+          "styles": {
+            "flex": "1",
+            "padding": "14px 0",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "backgroundColor": "#f3f4f6",
+            "color": "#374151",
+            "borderRadius": "12px",
+            "borderStyle": "none"
+          }
+        }
+      ]
+    },
+    {
+      "id": "menu-section",
+      "type": "container",
+      "label": "Menu Items",
+      "styles": {
+        "padding": "0 20px 20px 20px"
+      },
+      "children": [
+        {
+          "id": "menu-title",
+          "type": "heading",
+          "label": "Menu Title",
+          "content": "Settings",
+          "styles": {
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "color": "#111827",
+            "margin": "0 0 16px 0"
+          }
+        },
+        {
+          "id": "menu-list",
+          "type": "container",
+          "label": "Menu List",
+          "styles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "1px",
+            "backgroundColor": "#e5e7eb",
+            "borderRadius": "12px",
+            "overflow": "hidden"
+          },
+          "children": [
+            {
+              "id": "menu-1",
+              "type": "container",
+              "label": "Menu Item",
+              "styles": {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "alignItems": "center",
+                "padding": "16px",
+                "backgroundColor": "#ffffff"
+              },
+              "children": [
+                {
+                  "id": "menu-1-text",
+                  "type": "text",
+                  "label": "Text",
+                  "content": "Account Settings",
+                  "styles": {
+                    "fontSize": "14px",
+                    "color": "#111827",
+                    "margin": "0px",
+                    "fontWeight": "500"
+                  }
+                },
+                {
+                  "id": "menu-1-icon",
+                  "type": "text",
+                  "label": "Icon",
+                  "content": ">",
+                  "styles": {
+                    "fontSize": "20px",
+                    "color": "#9ca3af",
+                    "margin": "0px"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "menu-2",
+              "type": "container",
+              "label": "Menu Item",
+              "styles": {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "alignItems": "center",
+                "padding": "16px",
+                "backgroundColor": "#ffffff"
+              },
+              "children": [
+                {
+                  "id": "menu-2-text",
+                  "type": "text",
+                  "label": "Text",
+                  "content": "Notifications",
+                  "styles": {
+                    "fontSize": "14px",
+                    "color": "#111827",
+                    "margin": "0px",
+                    "fontWeight": "500"
+                  }
+                },
+                {
+                  "id": "menu-2-icon",
+                  "type": "text",
+                  "label": "Icon",
+                  "content": ">",
+                  "styles": {
+                    "fontSize": "20px",
+                    "color": "#9ca3af",
+                    "margin": "0px"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "menu-3",
+              "type": "container",
+              "label": "Menu Item",
+              "styles": {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "alignItems": "center",
+                "padding": "16px",
+                "backgroundColor": "#ffffff"
+              },
+              "children": [
+                {
+                  "id": "menu-3-text",
+                  "type": "text",
+                  "label": "Text",
+                  "content": "Privacy & Security",
+                  "styles": {
+                    "fontSize": "14px",
+                    "color": "#111827",
+                    "margin": "0px",
+                    "fontWeight": "500"
+                  }
+                },
+                {
+                  "id": "menu-3-icon",
+                  "type": "text",
+                  "label": "Icon",
+                  "content": ">",
+                  "styles": {
+                    "fontSize": "20px",
+                    "color": "#9ca3af",
+                    "margin": "0px"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "menu-4",
+              "type": "container",
+              "label": "Menu Item",
+              "styles": {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "alignItems": "center",
+                "padding": "16px",
+                "backgroundColor": "#ffffff"
+              },
+              "children": [
+                {
+                  "id": "menu-4-text",
+                  "type": "text",
+                  "label": "Text",
+                  "content": "Help & Support",
+                  "styles": {
+                    "fontSize": "14px",
+                    "color": "#111827",
+                    "margin": "0px",
+                    "fontWeight": "500"
+                  }
+                },
+                {
+                  "id": "menu-4-icon",
+                  "type": "text",
+                  "label": "Icon",
+                  "content": ">",
+                  "styles": {
+                    "fontSize": "20px",
+                    "color": "#9ca3af",
+                    "margin": "0px"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "logout-btn",
+          "type": "button",
+          "label": "Logout",
+          "content": "Log Out",
+          "styles": {
+            "width": "100%",
+            "padding": "16px 0",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "backgroundColor": "#ffffff",
+            "color": "#ef4444",
+            "borderRadius": "12px",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "borderColor": "#fecaca",
+            "marginTop": "20px"
+          }
+        }
+      ]
+    }
+  ]
+}

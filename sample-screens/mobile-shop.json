@@ -1,0 +1,388 @@
+{
+  "id": "screen-mobile-shop",
+  "name": "Mobile Shopping App",
+  "components": [
+    {
+      "id": "header",
+      "type": "container",
+      "label": "Header",
+      "styles": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "padding": "16px 20px",
+        "backgroundColor": "#6366f1",
+        "borderRadius": "0px"
+      },
+      "children": [
+        {
+          "id": "menu-icon",
+          "type": "text",
+          "label": "Menu",
+          "content": "Menu",
+          "styles": {
+            "fontSize": "24px",
+            "color": "#ffffff",
+            "margin": "0px",
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "title",
+          "type": "heading",
+          "label": "App Title",
+          "content": "Shop",
+          "styles": {
+            "fontSize": "20px",
+            "fontWeight": "700",
+            "color": "#ffffff",
+            "margin": "0px"
+          }
+        },
+        {
+          "id": "cart-icon",
+          "type": "text",
+          "label": "Cart",
+          "content": "Cart",
+          "styles": {
+            "fontSize": "24px",
+            "margin": "0px"
+          }
+        }
+      ]
+    },
+    {
+      "id": "search-bar",
+      "type": "container",
+      "label": "Search Bar",
+      "styles": {
+        "padding": "16px 20px",
+        "backgroundColor": "#f9fafb"
+      },
+      "children": [
+        {
+          "id": "search-input",
+          "type": "input",
+          "label": "Search",
+          "content": "Search products...",
+          "styles": {
+            "width": "100%",
+            "padding": "12px 16px",
+            "fontSize": "14px",
+            "backgroundColor": "#ffffff",
+            "borderRadius": "12px",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "borderColor": "#e5e7eb",
+            "color": "#6b7280"
+          }
+        }
+      ]
+    },
+    {
+      "id": "categories",
+      "type": "container",
+      "label": "Categories",
+      "styles": {
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": "12px",
+        "padding": "16px 20px",
+        "backgroundColor": "#ffffff",
+        "overflowX": "auto"
+      },
+      "children": [
+        {
+          "id": "cat-1",
+          "type": "button",
+          "label": "Electronics",
+          "content": "Electronics",
+          "styles": {
+            "padding": "10px 20px",
+            "fontSize": "14px",
+            "backgroundColor": "#6366f1",
+            "color": "#ffffff",
+            "borderRadius": "20px",
+            "borderStyle": "none",
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "cat-2",
+          "type": "button",
+          "label": "Fashion",
+          "content": "Fashion",
+          "styles": {
+            "padding": "10px 20px",
+            "fontSize": "14px",
+            "backgroundColor": "#f3f4f6",
+            "color": "#4b5563",
+            "borderRadius": "20px",
+            "borderStyle": "none",
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "cat-3",
+          "type": "button",
+          "label": "Home",
+          "content": "Home",
+          "styles": {
+            "padding": "10px 20px",
+            "fontSize": "14px",
+            "backgroundColor": "#f3f4f6",
+            "color": "#4b5563",
+            "borderRadius": "20px",
+            "borderStyle": "none",
+            "fontWeight": "500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "product-grid",
+      "type": "container",
+      "label": "Products",
+      "styles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "16px",
+        "padding": "20px"
+      },
+      "children": [
+        {
+          "id": "product-1",
+          "type": "card",
+          "label": "Wireless Earbuds Pro",
+          "styles": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": "16px",
+            "padding": "16px",
+            "boxShadow": "0 2px 8px rgba(0,0,0,0.08)"
+          },
+          "children": [
+            {
+              "id": "product-1-name",
+              "type": "heading",
+              "label": "Product Name",
+              "content": "Wireless Earbuds Pro",
+              "styles": {
+                "fontSize": "18px",
+                "fontWeight": "700",
+                "color": "#111827",
+                "margin": "0 0 8px 0"
+              }
+            },
+            {
+              "id": "product-1-desc",
+              "type": "text",
+              "label": "Description",
+              "content": "Premium sound quality with active noise cancellation. 30-hour battery life.",
+              "styles": {
+                "fontSize": "14px",
+                "color": "#6b7280",
+                "margin": "0 0 12px 0",
+                "lineHeight": "1.5"
+              }
+            },
+            {
+              "id": "product-1-bottom",
+              "type": "container",
+              "label": "Price & Button",
+              "styles": {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "alignItems": "center"
+              },
+              "children": [
+                {
+                  "id": "product-1-price",
+                  "type": "text",
+                  "label": "Price",
+                  "content": "$149.99",
+                  "styles": {
+                    "fontSize": "24px",
+                    "fontWeight": "800",
+                    "color": "#6366f1",
+                    "margin": "0px"
+                  }
+                },
+                {
+                  "id": "product-1-btn",
+                  "type": "button",
+                  "label": "Add Button",
+                  "content": "Add to Cart",
+                  "styles": {
+                    "padding": "12px 24px",
+                    "fontSize": "14px",
+                    "backgroundColor": "#6366f1",
+                    "color": "#ffffff",
+                    "borderRadius": "12px",
+                    "borderStyle": "none",
+                    "fontWeight": "600"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product-2",
+          "type": "card",
+          "label": "Smart Watch Series 7",
+          "styles": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": "16px",
+            "padding": "16px",
+            "boxShadow": "0 2px 8px rgba(0,0,0,0.08)"
+          },
+          "children": [
+            {
+              "id": "product-2-name",
+              "type": "heading",
+              "label": "Product Name",
+              "content": "Smart Watch Series 7",
+              "styles": {
+                "fontSize": "18px",
+                "fontWeight": "700",
+                "color": "#111827",
+                "margin": "0 0 8px 0"
+              }
+            },
+            {
+              "id": "product-2-desc",
+              "type": "text",
+              "label": "Description",
+              "content": "Track your fitness, health, and stay connected. Always-on Retina display.",
+              "styles": {
+                "fontSize": "14px",
+                "color": "#6b7280",
+                "margin": "0 0 12px 0",
+                "lineHeight": "1.5"
+              }
+            },
+            {
+              "id": "product-2-bottom",
+              "type": "container",
+              "label": "Price & Button",
+              "styles": {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "alignItems": "center"
+              },
+              "children": [
+                {
+                  "id": "product-2-price",
+                  "type": "text",
+                  "label": "Price",
+                  "content": "$399.99",
+                  "styles": {
+                    "fontSize": "24px",
+                    "fontWeight": "800",
+                    "color": "#6366f1",
+                    "margin": "0px"
+                  }
+                },
+                {
+                  "id": "product-2-btn",
+                  "type": "button",
+                  "label": "Add Button",
+                  "content": "Add to Cart",
+                  "styles": {
+                    "padding": "12px 24px",
+                    "fontSize": "14px",
+                    "backgroundColor": "#6366f1",
+                    "color": "#ffffff",
+                    "borderRadius": "12px",
+                    "borderStyle": "none",
+                    "fontWeight": "600"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product-3",
+          "type": "card",
+          "label": "Laptop Stand Pro",
+          "styles": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": "16px",
+            "padding": "16px",
+            "boxShadow": "0 2px 8px rgba(0,0,0,0.08)"
+          },
+          "children": [
+            {
+              "id": "product-3-name",
+              "type": "heading",
+              "label": "Product Name",
+              "content": "Laptop Stand Pro",
+              "styles": {
+                "fontSize": "18px",
+                "fontWeight": "700",
+                "color": "#111827",
+                "margin": "0 0 8px 0"
+              }
+            },
+            {
+              "id": "product-3-desc",
+              "type": "text",
+              "label": "Description",
+              "content": "Ergonomic aluminum stand with adjustable height. Perfect for your workspace.",
+              "styles": {
+                "fontSize": "14px",
+                "color": "#6b7280",
+                "margin": "0 0 12px 0",
+                "lineHeight": "1.5"
+              }
+            },
+            {
+              "id": "product-3-bottom",
+              "type": "container",
+              "label": "Price & Button",
+              "styles": {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "alignItems": "center"
+              },
+              "children": [
+                {
+                  "id": "product-3-price",
+                  "type": "text",
+                  "label": "Price",
+                  "content": "$79.99",
+                  "styles": {
+                    "fontSize": "24px",
+                    "fontWeight": "800",
+                    "color": "#6366f1",
+                    "margin": "0px"
+                  }
+                },
+                {
+                  "id": "product-3-btn",
+                  "type": "button",
+                  "label": "Add Button",
+                  "content": "Add to Cart",
+                  "styles": {
+                    "padding": "12px 24px",
+                    "fontSize": "14px",
+                    "backgroundColor": "#6366f1",
+                    "color": "#ffffff",
+                    "borderRadius": "12px",
+                    "borderStyle": "none",
+                    "fontWeight": "600"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

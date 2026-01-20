@@ -1,0 +1,236 @@
+{
+  "id": "screen-ecommerce-product",
+  "name": "E-Commerce Product Page",
+  "components": [
+    {
+      "id": "header-navbar",
+      "type": "container",
+      "label": "Navigation Bar",
+      "styles": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "padding": "16px 24px",
+        "backgroundColor": "#1f2937",
+        "borderRadius": "0px"
+      },
+      "children": [
+        {
+          "id": "logo",
+          "type": "heading",
+          "label": "Logo",
+          "content": "ShopHub",
+          "styles": {
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "color": "#ffffff",
+            "margin": "0px",
+            "fontFamily": "Inter"
+          }
+        },
+        {
+          "id": "nav-links",
+          "type": "text",
+          "label": "Nav Links",
+          "content": "Home | Products | Cart | Account",
+          "styles": {
+            "fontSize": "14px",
+            "color": "#d1d5db",
+            "fontFamily": "Inter",
+            "fontWeight": "400",
+            "margin": "0px"
+          }
+        }
+      ]
+    },
+    {
+      "id": "product-section",
+      "type": "container",
+      "label": "Product Display",
+      "styles": {
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": "48px",
+        "padding": "40px 24px",
+        "justifyContent": "center",
+        "alignItems": "flex-start",
+        "backgroundColor": "#f9fafb",
+        "borderRadius": "0px"
+      },
+      "children": [
+        {
+          "id": "product-image",
+          "type": "image",
+          "label": "Product Image",
+          "content": "https://via.placeholder.com/400x400",
+          "styles": {
+            "width": "400px",
+            "height": "400px",
+            "borderRadius": "12px",
+            "border": "1px solid #e5e7eb"
+          }
+        },
+        {
+          "id": "product-details",
+          "type": "container",
+          "label": "Product Details",
+          "styles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "20px",
+            "padding": "0px",
+            "width": "400px"
+          },
+          "children": [
+            {
+              "id": "product-title",
+              "type": "heading",
+              "content": "Premium Wireless Headphones",
+              "styles": {
+                "fontSize": "32px",
+                "fontWeight": "700",
+                "color": "#1f2937",
+                "margin": "0px",
+                "fontFamily": "Inter",
+                "lineHeight": "1.2"
+              }
+            },
+            {
+              "id": "rating",
+              "type": "text",
+              "content": "⭐⭐⭐⭐⭐ 4.8 (324 reviews)",
+              "styles": {
+                "fontSize": "14px",
+                "color": "#6b7280",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "price",
+              "type": "heading",
+              "content": "$299.99",
+              "styles": {
+                "fontSize": "28px",
+                "fontWeight": "700",
+                "color": "#059669",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "description",
+              "type": "text",
+              "content": "Experience premium sound quality with noise cancellation, 30-hour battery life, and premium comfort design. Perfect for work, travel, or everyday listening.",
+              "styles": {
+                "fontSize": "15px",
+                "color": "#4b5563",
+                "lineHeight": "1.6",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "specs-container",
+              "type": "container",
+              "label": "Specifications",
+              "styles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "gap": "12px",
+                "padding": "16px",
+                "backgroundColor": "#f3f4f6",
+                "borderRadius": "8px",
+                "border": "1px solid #e5e7eb"
+              },
+              "children": [
+                {
+                  "id": "spec-1",
+                  "type": "text",
+                  "content": "🔋 Battery: 30 hours",
+                  "styles": {
+                    "fontSize": "13px",
+                    "color": "#374151",
+                    "margin": "0px",
+                    "fontFamily": "Inter",
+                    "fontWeight": "500"
+                  }
+                },
+                {
+                  "id": "spec-2",
+                  "type": "text",
+                  "content": "🎵 Audio: High-Res certified",
+                  "styles": {
+                    "fontSize": "13px",
+                    "color": "#374151",
+                    "margin": "0px",
+                    "fontFamily": "Inter",
+                    "fontWeight": "500"
+                  }
+                },
+                {
+                  "id": "spec-3",
+                  "type": "text",
+                  "content": "🌍 Connectivity: Bluetooth 5.0",
+                  "styles": {
+                    "fontSize": "13px",
+                    "color": "#374151",
+                    "margin": "0px",
+                    "fontFamily": "Inter",
+                    "fontWeight": "500"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cta-container",
+              "type": "container",
+              "label": "CTA Buttons",
+              "styles": {
+                "display": "flex",
+                "flexDirection": "row",
+                "gap": "12px",
+                "padding": "0px"
+              },
+              "children": [
+                {
+                  "id": "add-to-cart",
+                  "type": "button",
+                  "content": "Add to Cart",
+                  "styles": {
+                    "padding": "14px 32px",
+                    "backgroundColor": "#059669",
+                    "color": "#ffffff",
+                    "fontSize": "15px",
+                    "fontWeight": "600",
+                    "borderRadius": "8px",
+                    "border": "none"
+                  }
+                },
+                {
+                  "id": "wishlist",
+                  "type": "button",
+                  "content": "❤️ Wishlist",
+                  "styles": {
+                    "padding": "14px 24px",
+                    "backgroundColor": "#ffffff",
+                    "color": "#059669",
+                    "fontSize": "15px",
+                    "fontWeight": "600",
+                    "borderRadius": "8px",
+                    "border": "2px solid #059669"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-20T20:00:00Z",
+    "description": "E-commerce product page with image, details, specifications, and purchase options"
+  }
+}

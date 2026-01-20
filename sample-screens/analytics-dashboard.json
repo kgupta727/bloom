@@ -1,0 +1,386 @@
+{
+  "id": "screen-dashboard-analytics",
+  "name": "Analytics Dashboard",
+  "components": [
+    {
+      "id": "dashboard-header",
+      "type": "container",
+      "label": "Dashboard Header",
+      "styles": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "padding": "24px 32px",
+        "backgroundColor": "#ffffff",
+        "borderRadius": "0px",
+        "borderBottom": "1px solid #e5e7eb"
+      },
+      "children": [
+        {
+          "id": "dash-title",
+          "type": "heading",
+          "content": "Analytics Dashboard",
+          "styles": {
+            "fontSize": "28px",
+            "fontWeight": "700",
+            "color": "#1f2937",
+            "margin": "0px",
+            "fontFamily": "Inter"
+          }
+        },
+        {
+          "id": "date-range",
+          "type": "text",
+          "content": "📅 Jan 1 - Jan 20, 2026",
+          "styles": {
+            "fontSize": "14px",
+            "color": "#6b7280",
+            "margin": "0px",
+            "fontFamily": "Inter"
+          }
+        }
+      ]
+    },
+    {
+      "id": "metrics-grid",
+      "type": "container",
+      "label": "KPI Cards",
+      "styles": {
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": "24px",
+        "padding": "32px",
+        "justifyContent": "space-around",
+        "alignItems": "flex-start",
+        "backgroundColor": "#f9fafb"
+      },
+      "children": [
+        {
+          "id": "metric-card-1",
+          "type": "card",
+          "label": "Total Revenue",
+          "styles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "12px",
+            "padding": "24px",
+            "backgroundColor": "#ffffff",
+            "borderRadius": "12px",
+            "border": "1px solid #e5e7eb",
+            "boxShadow": "0 1px 3px rgba(0,0,0,0.08)",
+            "width": "220px",
+            "minHeight": "140px"
+          },
+          "children": [
+            {
+              "id": "metric-label-1",
+              "type": "text",
+              "content": "Total Revenue",
+              "styles": {
+                "fontSize": "13px",
+                "color": "#6b7280",
+                "fontWeight": "500",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "metric-value-1",
+              "type": "heading",
+              "content": "$47,250",
+              "styles": {
+                "fontSize": "28px",
+                "fontWeight": "700",
+                "color": "#1f2937",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "metric-change-1",
+              "type": "text",
+              "content": "↑ 12.5% vs last week",
+              "styles": {
+                "fontSize": "12px",
+                "color": "#059669",
+                "fontWeight": "600",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            }
+          ]
+        },
+        {
+          "id": "metric-card-2",
+          "type": "card",
+          "label": "Active Users",
+          "styles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "12px",
+            "padding": "24px",
+            "backgroundColor": "#ffffff",
+            "borderRadius": "12px",
+            "border": "1px solid #e5e7eb",
+            "boxShadow": "0 1px 3px rgba(0,0,0,0.08)",
+            "width": "220px",
+            "minHeight": "140px"
+          },
+          "children": [
+            {
+              "id": "metric-label-2",
+              "type": "text",
+              "content": "Active Users",
+              "styles": {
+                "fontSize": "13px",
+                "color": "#6b7280",
+                "fontWeight": "500",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "metric-value-2",
+              "type": "heading",
+              "content": "8,432",
+              "styles": {
+                "fontSize": "28px",
+                "fontWeight": "700",
+                "color": "#1f2937",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "metric-change-2",
+              "type": "text",
+              "content": "↑ 8.3% vs last week",
+              "styles": {
+                "fontSize": "12px",
+                "color": "#059669",
+                "fontWeight": "600",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            }
+          ]
+        },
+        {
+          "id": "metric-card-3",
+          "type": "card",
+          "label": "Conversion Rate",
+          "styles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "12px",
+            "padding": "24px",
+            "backgroundColor": "#ffffff",
+            "borderRadius": "12px",
+            "border": "1px solid #e5e7eb",
+            "boxShadow": "0 1px 3px rgba(0,0,0,0.08)",
+            "width": "220px",
+            "minHeight": "140px"
+          },
+          "children": [
+            {
+              "id": "metric-label-3",
+              "type": "text",
+              "content": "Conversion Rate",
+              "styles": {
+                "fontSize": "13px",
+                "color": "#6b7280",
+                "fontWeight": "500",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "metric-value-3",
+              "type": "heading",
+              "content": "3.24%",
+              "styles": {
+                "fontSize": "28px",
+                "fontWeight": "700",
+                "color": "#1f2937",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "metric-change-3",
+              "type": "text",
+              "content": "↓ 0.5% vs last week",
+              "styles": {
+                "fontSize": "12px",
+                "color": "#dc2626",
+                "fontWeight": "600",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            }
+          ]
+        },
+        {
+          "id": "metric-card-4",
+          "type": "card",
+          "label": "Avg Order Value",
+          "styles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "12px",
+            "padding": "24px",
+            "backgroundColor": "#ffffff",
+            "borderRadius": "12px",
+            "border": "1px solid #e5e7eb",
+            "boxShadow": "0 1px 3px rgba(0,0,0,0.08)",
+            "width": "220px",
+            "minHeight": "140px"
+          },
+          "children": [
+            {
+              "id": "metric-label-4",
+              "type": "text",
+              "content": "Avg Order Value",
+              "styles": {
+                "fontSize": "13px",
+                "color": "#6b7280",
+                "fontWeight": "500",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "metric-value-4",
+              "type": "heading",
+              "content": "$156.80",
+              "styles": {
+                "fontSize": "28px",
+                "fontWeight": "700",
+                "color": "#1f2937",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "metric-change-4",
+              "type": "text",
+              "content": "↑ 3.2% vs last week",
+              "styles": {
+                "fontSize": "12px",
+                "color": "#059669",
+                "fontWeight": "600",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chart-section",
+      "type": "container",
+      "label": "Charts Section",
+      "styles": {
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": "24px",
+        "padding": "32px",
+        "backgroundColor": "#f9fafb"
+      },
+      "children": [
+        {
+          "id": "chart-1",
+          "type": "card",
+          "label": "Revenue Trend",
+          "styles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "16px",
+            "padding": "24px",
+            "backgroundColor": "#ffffff",
+            "borderRadius": "12px",
+            "border": "1px solid #e5e7eb",
+            "flex": "1",
+            "minHeight": "280px"
+          },
+          "children": [
+            {
+              "id": "chart-title-1",
+              "type": "heading",
+              "content": "Revenue Trend",
+              "styles": {
+                "fontSize": "16px",
+                "fontWeight": "600",
+                "color": "#1f2937",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "chart-placeholder-1",
+              "type": "text",
+              "content": "[Line chart showing revenue growth over 20 days]",
+              "styles": {
+                "fontSize": "13px",
+                "color": "#9ca3af",
+                "padding": "40px 0px",
+                "textAlign": "center",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            }
+          ]
+        },
+        {
+          "id": "chart-2",
+          "type": "card",
+          "label": "Traffic Sources",
+          "styles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "16px",
+            "padding": "24px",
+            "backgroundColor": "#ffffff",
+            "borderRadius": "12px",
+            "border": "1px solid #e5e7eb",
+            "flex": "1",
+            "minHeight": "280px"
+          },
+          "children": [
+            {
+              "id": "chart-title-2",
+              "type": "heading",
+              "content": "Traffic Sources",
+              "styles": {
+                "fontSize": "16px",
+                "fontWeight": "600",
+                "color": "#1f2937",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "chart-placeholder-2",
+              "type": "text",
+              "content": "[Pie chart: 45% Organic | 35% Direct | 20% Social]",
+              "styles": {
+                "fontSize": "13px",
+                "color": "#9ca3af",
+                "padding": "40px 0px",
+                "textAlign": "center",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-20T20:05:00Z",
+    "description": "Analytics dashboard with KPI cards and performance metrics"
+  }
+}

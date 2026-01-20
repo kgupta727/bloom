@@ -1,0 +1,341 @@
+{
+  "id": "screen-blog-post",
+  "name": "Blog Post Article",
+  "components": [
+    {
+      "id": "blog-hero",
+      "type": "container",
+      "label": "Hero Section",
+      "styles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "16px",
+        "padding": "60px 32px",
+        "backgroundColor": "#667eea",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "textAlign": "center",
+        "minHeight": "320px"
+      },
+      "children": [
+        {
+          "id": "blog-category",
+          "type": "text",
+          "content": "📚 Technology · 8 min read",
+          "styles": {
+            "fontSize": "13px",
+            "color": "#e0e7ff",
+            "fontWeight": "600",
+            "margin": "0px",
+            "fontFamily": "Inter",
+            "letterSpacing": "0.5px"
+          }
+        },
+        {
+          "id": "blog-title",
+          "type": "heading",
+          "content": "The Future of AI-Powered Design Tools",
+          "styles": {
+            "fontSize": "42px",
+            "fontWeight": "700",
+            "color": "#ffffff",
+            "margin": "0px",
+            "fontFamily": "Inter",
+            "lineHeight": "1.2",
+            "maxWidth": "800px"
+          }
+        },
+        {
+          "id": "blog-meta",
+          "type": "text",
+          "content": "by Sarah Chen · January 20, 2026",
+          "styles": {
+            "fontSize": "14px",
+            "color": "#c7d2fe",
+            "margin": "0px",
+            "fontFamily": "Inter"
+          }
+        }
+      ]
+    },
+    {
+      "id": "blog-content-wrapper",
+      "type": "container",
+      "label": "Content Wrapper",
+      "styles": {
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": "32px",
+        "padding": "48px 32px",
+        "backgroundColor": "#ffffff",
+        "justifyContent": "center"
+      },
+      "children": [
+        {
+          "id": "blog-content",
+          "type": "container",
+          "label": "Main Content",
+          "styles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "24px",
+            "maxWidth": "680px",
+            "padding": "0px"
+          },
+          "children": [
+            {
+              "id": "content-intro",
+              "type": "text",
+              "content": "The intersection of artificial intelligence and design tools is reshaping how creative professionals work. With generative capabilities becoming increasingly sophisticated, the next generation of design platforms promises to accelerate creative workflows while maintaining artistic integrity.",
+              "styles": {
+                "fontSize": "16px",
+                "color": "#4b5563",
+                "lineHeight": "1.8",
+                "margin": "0px",
+                "fontFamily": "Inter",
+                "fontWeight": "500"
+              }
+            },
+            {
+              "id": "content-subheading-1",
+              "type": "heading",
+              "content": "Key Innovations to Watch",
+              "styles": {
+                "fontSize": "24px",
+                "fontWeight": "700",
+                "color": "#1f2937",
+                "margin": "16px 0px 0px 0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "content-body-1",
+              "type": "text",
+              "content": "Smart component generation, AI-assisted layout optimization, and real-time design suggestions are just the beginning. These tools learn from design patterns across thousands of projects, enabling faster iterations and better design decisions.",
+              "styles": {
+                "fontSize": "15px",
+                "color": "#6b7280",
+                "lineHeight": "1.7",
+                "margin": "0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "highlight-box",
+              "type": "container",
+              "label": "Highlight Quote",
+              "styles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "gap": "0px",
+                "padding": "20px 24px",
+                "backgroundColor": "#f0f4ff",
+                "borderRadius": "8px",
+                "borderLeft": "4px solid #667eea",
+                "margin": "24px 0px"
+              },
+              "children": [
+                {
+                  "id": "quote",
+                  "type": "text",
+                  "content": "\"The future belongs to designers who can collaborate effectively with AI, not those who compete with it.\"",
+                  "styles": {
+                    "fontSize": "16px",
+                    "color": "#667eea",
+                    "fontWeight": "600",
+                    "margin": "0px",
+                    "fontFamily": "Georgia",
+                    "fontStyle": "italic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "content-subheading-2",
+              "type": "heading",
+              "content": "Practical Applications Today",
+              "styles": {
+                "fontSize": "24px",
+                "fontWeight": "700",
+                "color": "#1f2937",
+                "margin": "16px 0px 0px 0px",
+                "fontFamily": "Inter"
+              }
+            },
+            {
+              "id": "content-list",
+              "type": "container",
+              "label": "List Items",
+              "styles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "gap": "12px",
+                "padding": "0px",
+                "margin": "12px 0px"
+              },
+              "children": [
+                {
+                  "id": "list-item-1",
+                  "type": "text",
+                  "content": "✓ Automated responsive design layouts",
+                  "styles": {
+                    "fontSize": "15px",
+                    "color": "#374151",
+                    "margin": "0px",
+                    "fontFamily": "Inter",
+                    "lineHeight": "1.6"
+                  }
+                },
+                {
+                  "id": "list-item-2",
+                  "type": "text",
+                  "content": "✓ Intelligent color palette generation",
+                  "styles": {
+                    "fontSize": "15px",
+                    "color": "#374151",
+                    "margin": "0px",
+                    "fontFamily": "Inter",
+                    "lineHeight": "1.6"
+                  }
+                },
+                {
+                  "id": "list-item-3",
+                  "type": "text",
+                  "content": "✓ Style consistency enforcement",
+                  "styles": {
+                    "fontSize": "15px",
+                    "color": "#374151",
+                    "margin": "0px",
+                    "fontFamily": "Inter",
+                    "lineHeight": "1.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "blog-sidebar",
+          "type": "container",
+          "label": "Sidebar",
+          "styles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "24px",
+            "width": "280px",
+            "padding": "0px"
+          },
+          "children": [
+            {
+              "id": "author-card",
+              "type": "card",
+              "label": "Author Card",
+              "styles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "gap": "12px",
+                "padding": "20px",
+                "backgroundColor": "#f9fafb",
+                "borderRadius": "12px",
+                "border": "1px solid #e5e7eb",
+                "textAlign": "center"
+              },
+              "children": [
+                {
+                  "id": "author-avatar",
+                  "type": "image",
+                  "content": "https://via.placeholder.com/60x60",
+                  "styles": {
+                    "width": "60px",
+                    "height": "60px",
+                    "borderRadius": "50%",
+                    "margin": "0px auto"
+                  }
+                },
+                {
+                  "id": "author-name",
+                  "type": "heading",
+                  "content": "Sarah Chen",
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "600",
+                    "color": "#1f2937",
+                    "margin": "0px",
+                    "fontFamily": "Inter"
+                  }
+                },
+                {
+                  "id": "author-title",
+                  "type": "text",
+                  "content": "Design & AI Enthusiast",
+                  "styles": {
+                    "fontSize": "12px",
+                    "color": "#6b7280",
+                    "margin": "0px",
+                    "fontFamily": "Inter"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "related-posts",
+              "type": "container",
+              "label": "Related Posts",
+              "styles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "gap": "12px",
+                "padding": "20px",
+                "backgroundColor": "#f9fafb",
+                "borderRadius": "12px",
+                "border": "1px solid #e5e7eb"
+              },
+              "children": [
+                {
+                  "id": "related-title",
+                  "type": "heading",
+                  "content": "Related Posts",
+                  "styles": {
+                    "fontSize": "14px",
+                    "fontWeight": "600",
+                    "color": "#1f2937",
+                    "margin": "0px 0px 12px 0px",
+                    "fontFamily": "Inter"
+                  }
+                },
+                {
+                  "id": "related-1",
+                  "type": "text",
+                  "content": "→ Figma's Latest AI Features",
+                  "styles": {
+                    "fontSize": "12px",
+                    "color": "#667eea",
+                    "margin": "0px",
+                    "fontFamily": "Inter",
+                    "fontWeight": "500"
+                  }
+                },
+                {
+                  "id": "related-2",
+                  "type": "text",
+                  "content": "→ Design Systems at Scale",
+                  "styles": {
+                    "fontSize": "12px",
+                    "color": "#667eea",
+                    "margin": "0px",
+                    "fontFamily": "Inter",
+                    "fontWeight": "500"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-20T20:10:00Z",
+    "description": "Blog post article layout with hero, content, sidebar, and author info"
+  }
+}
